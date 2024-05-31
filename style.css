@@ -1,0 +1,109 @@
+body {
+    background-color: #161616;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pxsaur img{
+    width: 5rem;
+}
+
+.container {
+    background-color: #000000;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+}
+
+.container-wrapper {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.welcome-section {
+    flex: 2;
+}
+
+.welcome-section h1 {
+    font-size: 5rem;
+}
+
+.welcome-section p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.projects-section {
+    margin-top: 2rem;
+    flex: 1;
+}
+
+.project-wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.projects-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-section li {
+    margin-bottom: 0.5rem;
+}
+
+.projects-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.raleway-welcome {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 0%;
+}
+
+.raleway-projects {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.raleway-normal {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
